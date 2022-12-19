@@ -1,0 +1,67 @@
+html, body{
+    height: 100%;
+    /* background-color: white !important; */
+    background-image: url("hotel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.global-container{
+    height: 100%;   
+    display: flex;
+    padding: 10% 0 0 18%;
+
+    /* align-items: center;
+    justify-content: center; */
+    color: #3e6d9c; 
+
+}
+
+.login-form{
+    width: 380px;
+    height: 450px;
+    padding: 20px;
+    background-color: #1a2226 !important; 
+}
+
+input[type="email"],
+input[type="password"]{
+    background: black;
+    color: white;
+    border: 2px solid #b4cde6;
+}
+
+input[type="checkbox"]{
+    background: black;
+    color: white;
+    border: 2px solid #b4cde6;
+}
+
+.card-title {
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.btn{
+    background: #a7ffe4 !important;
+    color: #000 !important;
+    font-size: 15px;
+    border-radius: 10px !important;
+}
+
+.containe{
+    background: #48e248 ;
+    color: #000 ;
+    font-size: 15px; 
+    border-radius: 10px !important;
+    /* width: min-content; */
+
+}
+
+.container a{
+    background: #1a2226;
+    border-color: red;
+    color: white;
+    border: 3px solid #a7ffe4;
+    text-decoration: none;
+}
